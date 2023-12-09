@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "241332713528",
+    "firebase_url": "https://pickupcabs-af0fd-default-rtdb.firebaseio.com",
+    "project_id": "pickupcabs-af0fd",
+    "storage_bucket": "pickupcabs-af0fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241332713528:android:dbca7e85eb298e3e0e0ecd",
+        "android_client_info": {
+          "package_name": "com.pickupcabs.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241332713528-08lbqphh8nrgq1u2ksba3au13dk34m23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pickupcabs.app",
+            "certificate_hash": "a0801d6ec47a243698d919360763cf64dc1b6e37"
+          }
+        },
+        {
+          "client_id": "241332713528-12fg72qp3ni3cpkkf3p0706upm07eri8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pickupcabs.app",
+            "certificate_hash": "5a1885cf76c8ddf64bbb38e3ca9c8a08389924cf"
+          }
+        },
+        {
+          "client_id": "241332713528-ic0lv241scl0ja6622d2n8dlv9s1fnuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK9fGBbSs9FH9k_6APqnJNdafif9yKwUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241332713528-ah6suo5t3a0dmdr3822bjgar60kk3mvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "241332713528-hutvvujhmdp7ogn7ri00p8mgl9pij694.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pickupcabs.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

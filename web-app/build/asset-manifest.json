@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.js": "/static/js/main.95c714ef.chunk.js",
+    "main.js.map": "/static/js/main.95c714ef.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d5c514a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d5c514a.js.map",
+    "static/js/2.e7b52e07.chunk.js": "/static/js/2.e7b52e07.chunk.js",
+    "static/js/2.e7b52e07.chunk.js.map": "/static/js/2.e7b52e07.chunk.js.map",
+    "static/js/3.5edb7592.chunk.js": "/static/js/3.5edb7592.chunk.js",
+    "static/js/3.5edb7592.chunk.js.map": "/static/js/3.5edb7592.chunk.js.map",
+    "static/js/4.46b54913.chunk.js": "/static/js/4.46b54913.chunk.js",
+    "static/js/4.46b54913.chunk.js.map": "/static/js/4.46b54913.chunk.js.map",
+    "static/js/5.5141335d.chunk.js": "/static/js/5.5141335d.chunk.js",
+    "static/js/5.5141335d.chunk.js.map": "/static/js/5.5141335d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.e7b52e07.chunk.js.LICENSE.txt": "/static/js/2.e7b52e07.chunk.js.LICENSE.txt",
+    "static/js/3.5edb7592.chunk.js.LICENSE.txt": "/static/js/3.5edb7592.chunk.js.LICENSE.txt",
+    "static/js/4.46b54913.chunk.js.LICENSE.txt": "/static/js/4.46b54913.chunk.js.LICENSE.txt",
+    "static/js/5.5141335d.chunk.js.LICENSE.txt": "/static/js/5.5141335d.chunk.js.LICENSE.txt",
+    "static/media/back.1e7d0b00.png": "/static/media/back.1e7d0b00.png",
+    "static/media/background.295b62b3.jpg": "/static/media/background.295b62b3.jpg",
+    "static/media/braintree-logo.png": "/static/media/braintree-logo.9d588dee.png",
+    "static/media/handsonmobile.8e1693ae.jpg": "/static/media/handsonmobile.8e1693ae.jpg",
+    "static/media/header-back.jpg": "/static/media/header-back.41547b20.jpg",
+    "static/media/mercadopago-logo.png": "/static/media/mercadopago-logo.2de0453b.png",
+    "static/media/money1.jpg": "/static/media/money1.ec50af15.jpg",
+    "static/media/money2.jpg": "/static/media/money2.433df22e.jpg",
+    "static/media/money3.jpg": "/static/media/money3.058743b6.jpg",
+    "static/media/payfast-logo.png": "/static/media/payfast-logo.906855d0.png",
+    "static/media/paystack-logo.png": "/static/media/paystack-logo.0ef1ef27.png",
+    "static/media/profilePic.png": "/static/media/profilePic.f9b727f8.png",
+    "static/media/razorpay-logo.png": "/static/media/razorpay-logo.50322d2d.png",
+    "static/media/squareup-logo.png": "/static/media/squareup-logo.53cb67ec.png",
+    "static/media/wipay-logo.png": "/static/media/wipay-logo.c5ffd974.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d5c514a.js",
+    "static/js/2.e7b52e07.chunk.js",
+    "static/js/main.95c714ef.chunk.js"
+  ]
+}

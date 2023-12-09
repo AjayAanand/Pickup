@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>241332713528-hutvvujhmdp7ogn7ri00p8mgl9pij694.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.241332713528-hutvvujhmdp7ogn7ri00p8mgl9pij694</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>241332713528-08lbqphh8nrgq1u2ksba3au13dk34m23.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCUiVWO7bWiXE9GI6QfocOIHau2cTm5CVM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>241332713528</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pickupcabs.app</string>
+	<key>PROJECT_ID</key>
+	<string>pickupcabs-af0fd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pickupcabs-af0fd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:241332713528:ios:318d07c94d03f4100e0ecd</string>
+	<key>DATABASE_URL</key>
+	<string>https://pickupcabs-af0fd-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

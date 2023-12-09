@@ -1,0 +1,111 @@
+{
+	"app_name": "Pickup",
+	"app_description": "Best way to travel , easy booking, experience drivers",
+	"app_identifier": "com.pickupcabs.app",
+	"ios_app_version": "1.0.0",
+	"android_app_version": "100",
+	"firebaseProjectId": "pickupcabs-af0fd",
+	"googleApiKeys": {
+		"ios": "AIzaSyC7sgGXfZjpSl15qzjgMgUsHtUWaHHvfAs",
+		"android": "AIzaSyC7sgGXfZjpSl15qzjgMgUsHtUWaHHvfAs",
+		"web": "AIzaSyC7sgGXfZjpSl15qzjgMgUsHtUWaHHvfAs",
+		"server": "AIzaSyC7sgGXfZjpSl15qzjgMgUsHtUWaHHvfAs"
+	},
+	"expo_owner": "pickupcab",
+	"expo_slug": "pickupcabs-af0fd",
+	"expo_project_id": "af73abf0-c976-4104-a42f-386484408b99",
+	"admin_email": "gurpreet96071@gmail.com",
+	"purchase_code": "88fe9eef-9574-4d21-9312-8eb377597d19",
+	"paymentMethods": {
+		"braintree": {
+			"active": false,
+			"testing": true,
+			"merchantId": "XXXXXXXXXXXXXXX",
+			"publicKey": "XXXXXXXXXXXXXXX",
+			"privateKey": "XXXXXXXXXXXXXXX"
+		},
+		"culqi": {
+			"active": false,
+			"PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"SECURE_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"flutterwave": {
+			"active": false,
+			"FLUTTERWAVE_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"FLUTTERWAVE_SECRET_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"liqpay": {
+			"active": false,
+			"public_key": "XXXXXXXXXXXXXXX",
+			"private_key": "XXXXXXXXXXXXXXX"
+		},
+		"mercadopago": {
+			"active": false,
+			"public_key": "XXXXXXXXXXXXXXX",
+			"access_token": "XXXXXXXXXXXXXXX"
+		},
+		"payfast": {
+			"active": false,
+			"testingMode": true,
+			"PAYFAST_MEWRCHANT_ID": "XXXXXXXXXXXXXXX",
+			"PAYFAST_MERCHANT_KEY": "XXXXXXXXXXXXXXX",
+			"passPhrase": null
+		},
+		"paypal": {
+			"active": false,
+			"testing": true,
+			"paypal_client_id": "XXXXXXXXXXXXXXX",
+			"paypal_secret": "XXXXXXXXXXXXXXX"
+		},
+		"paystack": {
+			"active": false,
+			"PAYSTACK_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
+			"PAYSTACK_SECRET_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"paytm": {
+			"active": false,
+			"testing": true,
+			"PAYTM_MEWRCHANT_ID": "XXXXXXXXXXXXXXX",
+			"PAYTM_MERCHANT_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"payulatam": {
+			"active": false,
+			"testing": true,
+			"merchantId": 111111,
+			"apiKey": "XXXXXXXXXXXXXXX",
+			"accountId": 111111
+		},
+		"securepay": {
+			"active": false,
+			"testing": true,
+			"MERCHANT_CODE": "XXXXXXXXXXXXXXX",
+			"TXN_PASSWORD": "XXXXXXXXXXXXXXX"
+		},
+		"stripe": {
+			"active": true,
+			"stripe_private_key": "sk_test_51NQXB2LL4ry1uqELNg3QTqRnqdviKkkpAA3FqcwLIWXY9GL9O0uYU7XrPWOF4rpvw666SQW5cMWmQhRid4YUYxmk00X7tw4NbC",
+			"stripe_public_key": "pk_test_51NQXB2LL4ry1uqEL1iBlX67J4syOlhdnIp8ZRcW3wSKPKo0JNVjieooFMwT2oBpHzKv2LWOlWBR9T8VeNRiwgvcT00gKe4ma4R"
+		},
+		"squareup": {
+			"active": false,
+			"testing": true,
+			"APPLICATION_ID": "XXXXXXXXXXXXXXX",
+			"LOCATION_ID": "XXXXXXXXXXXXXXX",
+			"ACCESS_TOKEN": "XXXXXXXXXXXXXXX"
+		},
+		"wipay": {
+			"active": false,
+			"testing": true,
+			"ACCOUNT_NO": "XXXXXXXXXXXXXXX",
+			"API_KEY": "XXXXXXXXXXXXXXX"
+		},
+		"razorpay": {
+			"active": false,
+			"KEY_ID" : "XXXXXXXXXXXXXXX",
+			"KEY_SECRET" :"XXXXXXXXXXXXXXX"
+		},
+		"test": {
+			"active": true
+		}
+	}
+}
