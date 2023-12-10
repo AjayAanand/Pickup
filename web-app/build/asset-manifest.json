@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/static/js/main.95c714ef.chunk.js",
-    "main.js.map": "/static/js/main.95c714ef.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8d5c514a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8d5c514a.js.map",
-    "static/js/2.e7b52e07.chunk.js": "/static/js/2.e7b52e07.chunk.js",
-    "static/js/2.e7b52e07.chunk.js.map": "/static/js/2.e7b52e07.chunk.js.map",
-    "static/js/3.5edb7592.chunk.js": "/static/js/3.5edb7592.chunk.js",
-    "static/js/3.5edb7592.chunk.js.map": "/static/js/3.5edb7592.chunk.js.map",
+    "main.js": "/static/js/main.69d6dd87.chunk.js",
+    "main.js.map": "/static/js/main.69d6dd87.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8fb4d0d8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8fb4d0d8.js.map",
+    "static/js/2.81d4509c.chunk.js": "/static/js/2.81d4509c.chunk.js",
+    "static/js/2.81d4509c.chunk.js.map": "/static/js/2.81d4509c.chunk.js.map",
+    "static/js/3.e8babb42.chunk.js": "/static/js/3.e8babb42.chunk.js",
+    "static/js/3.e8babb42.chunk.js.map": "/static/js/3.e8babb42.chunk.js.map",
     "static/js/4.46b54913.chunk.js": "/static/js/4.46b54913.chunk.js",
     "static/js/4.46b54913.chunk.js.map": "/static/js/4.46b54913.chunk.js.map",
     "static/js/5.5141335d.chunk.js": "/static/js/5.5141335d.chunk.js",
     "static/js/5.5141335d.chunk.js.map": "/static/js/5.5141335d.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.e7b52e07.chunk.js.LICENSE.txt": "/static/js/2.e7b52e07.chunk.js.LICENSE.txt",
-    "static/js/3.5edb7592.chunk.js.LICENSE.txt": "/static/js/3.5edb7592.chunk.js.LICENSE.txt",
+    "static/js/2.81d4509c.chunk.js.LICENSE.txt": "/static/js/2.81d4509c.chunk.js.LICENSE.txt",
+    "static/js/3.e8babb42.chunk.js.LICENSE.txt": "/static/js/3.e8babb42.chunk.js.LICENSE.txt",
     "static/js/4.46b54913.chunk.js.LICENSE.txt": "/static/js/4.46b54913.chunk.js.LICENSE.txt",
     "static/js/5.5141335d.chunk.js.LICENSE.txt": "/static/js/5.5141335d.chunk.js.LICENSE.txt",
     "static/media/back.1e7d0b00.png": "/static/media/back.1e7d0b00.png",
@@ -34,8 +34,8 @@
     "static/media/wipay-logo.png": "/static/media/wipay-logo.c5ffd974.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d5c514a.js",
-    "static/js/2.e7b52e07.chunk.js",
-    "static/js/main.95c714ef.chunk.js"
+    "static/js/runtime-main.8fb4d0d8.js",
+    "static/js/2.81d4509c.chunk.js",
+    "static/js/main.69d6dd87.chunk.js"
   ]
 }
