@@ -285,9 +285,9 @@ export default function TaxiModal(props) {
                                     title={t('confirm')}
                                     loading={bookModelLoading}
                                     loadingProps={{ size: "large", color: colors.BUTTON_LOADING }}
-                                    titleStyle={{ color: colors.HEADER, fontWeight: 'bold' }}
+                                    titleStyle={{ color: colors.WHITE, fontWeight: 'bold' }}
                                     onPress={bookNow}
-                                    buttonStyle={{ height: '100%', backgroundColor: colors.BOX_BG, borderRadius: 25, }}
+                                    buttonStyle={{ height: '100%', backgroundColor: colors.BLACK, borderRadius: 25, }}
                                     containerStyle={styles.buttonStyle}
                                 />
                             </View>
@@ -349,8 +349,8 @@ const styles = StyleSheet.create({
         shadowRadius: 5,
         elevation: 8
     },
-    offerContainer: { height: 30, backgroundColor: colors.BOX_BG, width: width, justifyContent: 'center', borderBottomColor: colors.BOX_BG, borderBottomWidth: Platform.OS == 'ios' ? 1 : 0 },
-    offerText: { alignSelf: 'center', color: colors.MAP_TEXT, fontSize: 12, fontFamily: 'Roboto-Regular' },
+    offerContainer: { height: 30, backgroundColor: colors.BLACK, width: width, justifyContent: 'center', borderBottomColor: colors.BOX_BG, borderBottomWidth: Platform.OS == 'ios' ? 1 : 0 },
+    offerText: { alignSelf: 'center', color: colors.WHITE, fontSize: 12, fontFamily: 'Roboto-Regular' },
     priceDetailsContainer: { backgroundColor: colors.WHITE, flexDirection: 'row', position: 'relative', zIndex: 1, },
     priceDetailsLeft: { flex: 19, height: 90 },
     priceDetailsMiddle: { flex: 2, height: 50, width: 1, alignItems: 'center' },
@@ -369,7 +369,7 @@ const styles = StyleSheet.create({
         borderBottomWidth: 10,
         borderLeftColor: colors.TRANSPARENT,
         borderRightColor: colors.TRANSPARENT,
-        borderBottomColor: colors.BOX_BG,
+        borderBottomColor: colors.BLACK,
         transform: [
             { rotate: '180deg' }
         ],
