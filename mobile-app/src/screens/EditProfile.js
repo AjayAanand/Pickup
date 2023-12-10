@@ -905,7 +905,7 @@ export default function EditProfilePage(props) {
                             !auth.profile.vehicleRegistraionImage ?
                                 vehicleRegistrationCapturedImage ?
                                     <View style={styles.imagePosition}>
-                                        <TouchableOpacity style={styles.photoClick} onPress={cancelVehicleInsurancePhoto}>
+                                        <TouchableOpacity style={styles.photoClick} onPress={cancelVehicleRegistrationPhoto}>
                                             <Image source={require('../../assets/images/cross.png')} resizeMode={'contain'} style={styles.imageStyle} />
                                         </TouchableOpacity>
                                         <Image source={{ uri: vehicleRegistrationCapturedImage }} style={styles.photoResult} resizeMode={'cover'} />
@@ -948,14 +948,14 @@ export default function EditProfilePage(props) {
                                         <Text style={styles.text}>VEHICLE REGISTRATION</Text>
                                     </View>
                                     {vehicleRegistrationCapturedImage ?
-                                        <TouchableOpacity style={styles.photoClick} onPress={cancelVehicleInsurancePhoto}>
+                                        <TouchableOpacity style={styles.photoClick} onPress={cancelVehicleRegistrationPhoto}>
                                             <Image source={require('../../assets/images/cross.png')} resizeMode={'contain'} style={styles.imageStyle} />
                                         </TouchableOpacity>
                                         : null}
 
                                     {vehicleRegistrationCapturedImage ?
                                         <TouchableOpacity onPress={() => showActionSheet('7')}>
-                                            <Image source={{ uri: vehic }} style={styles.photoResult} resizeMode={'cover'} />
+                                            <Image source={{ uri: vehicleRegistrationCapturedImage }} style={styles.photoResult} resizeMode={'cover'} />
                                         </TouchableOpacity>
                                         :
                                         <TouchableOpacity onPress={() => showActionSheet('7')}>
@@ -984,7 +984,7 @@ export default function EditProfilePage(props) {
                                             {
                                                 state.imageValid ?
                                                     // <Text style={styles.capturePhotoTitle}>{t('upload_driving_license_back')}</Text>
-                                                    <Text style={styles.capturePhotoTitle}>EHICLE INSURANCE</Text>
+                                                    <Text style={styles.capturePhotoTitle}>VEHICLE INSURANCE</Text>
                                                     :
                                                     // <Text style={styles.errorPhotoTitle}>{t('upload_driving_license_back')}</Text>
                                                     <Text style={styles.errorPhotoTitle}>VEHICLE INSURANCE</Text>
@@ -1109,7 +1109,7 @@ export default function EditProfilePage(props) {
                                 onPress={saveProfile}
                                 title={t('update_button')}
                                 titleStyle={styles.buttonTitle}
-                                buttonStyle={[styles.registerButton, { backgroundColor: colors.BLACK }]}
+                                buttonStyle={[styles.registerButton, { backgroundColor: colors.PAYMENT_BUTTON_BLUE }]}
                             />
                         </View>
                         <View style={styles.gapView} />

@@ -1,4 +1,5 @@
 node_modules/**/*
+node_modules/*
 .expo/*
 npm-debug.*
 *.jks
@@ -9,6 +10,17 @@ npm-debug.*
 *.orig.*
 web-build/
 package-lock.json
+mobile-app/node_modules/
+web-app/node_modules/
+LICENSE
+README.md
+CHANGELOG.md
+command.js
+yarn-error.log
+cross-env
+cross-env-shell
+polyline
+react-app-rewired
 # macOS
 .DS_Store
 ios/

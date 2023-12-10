@@ -16,7 +16,7 @@ import store from '../store/store';
 import { firebase } from '../config/configureFirebase';
 import { onValue, update, set, off } from "firebase/database";
 import { onAuthStateChanged, signInWithCredential, signInWithPopup, signOut, sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
-import { uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import { getDownloadURL, uploadBytes, uploadBytesResumable } from "firebase/storage";
 import base64 from 'react-native-base64';
 import AccessKey from '../other/AccessKey';
 
@@ -383,7 +383,14 @@ export const updateProfile = (updateData) => async (dispatch) => {
     singleUserRef,
     driverDocsRef,
     driverDocsRefBack,
-    verifyIdImageRef
+    verifyIdImageRef,
+    driverDocsTsl,
+    driverDocsP_endoursmenFront,
+    driverDocsP_endoursmenBack,
+    driverDocsCof,
+    driverDocsVehicelRegistration,
+    driverDocsVehicelInsurance,
+    driverDocsAirportAccessCard
   } = firebase;
 
   const uid = auth.currentUser.uid;
@@ -399,6 +406,34 @@ export const updateProfile = (updateData) => async (dispatch) => {
   if (updateData.verifyIdImage) {
     await uploadBytesResumable(verifyIdImageRef(uid), updateData.verifyIdImage);
     updateData.verifyIdImage = await getDownloadURL(verifyIdImageRef(uid));
+  }
+  if (updateData.tslImage) {
+    await uploadBytes(driverDocsTsl(uid), updateData.tslImage);
+    updateData.tslImage = await getDownloadURL(driverDocsTsl(uid));
+  }
+  if (updateData.p_endoursmenImageFront) {
+    await uploadBytes(driverDocsP_endoursmenFront(uid), updateData.p_endoursmenImageFront);
+    updateData.p_endoursmenImageFront = await getDownloadURL(driverDocsP_endoursmenFront(uid));
+  }
+  if (updateData.p_endoursmenImageBack) {
+    await uploadBytes(driverDocsP_endoursmenBack(uid), updateData.p_endoursmenImageBack);
+    updateData.p_endoursmenImageBack = await getDownloadURL(driverDocsP_endoursmenBack(uid));
+  }
+  if (updateData.cofImage) {
+    await uploadBytes(driverDocsCof(uid), updateData.cofImage);
+    updateData.cofImage = await getDownloadURL(driverDocsCof(uid));
+  }
+  if (updateData.vehicleRegistraionImage) {
+    await uploadBytes(driverDocsVehicelRegistration(uid), updateData.vehicleRegistraionImage);
+    updateData.vehicleRegistraionImage = await getDownloadURL(driverDocsVehicelRegistration(uid));
+  }
+  if (updateData.vehicleRegistraionImage) {
+    await uploadBytes(driverDocsVehicelInsurance(uid), updateData.vehicleInsuranceImage);
+    updateData.vehicleInsuranceImage = await getDownloadURL(driverDocsVehicelInsurance(uid));
+  }
+  if (updateData.airportAccessCardImage) {
+    await uploadBytes(driverDocsAirportAccessCard(uid), updateData.airportAccessCardImage);
+    updateData.airportAccessCardImage = await getDownloadURL(driverDocsAirportAccessCard(uid));
   }
 
   update(singleUserRef(uid), updateData);
