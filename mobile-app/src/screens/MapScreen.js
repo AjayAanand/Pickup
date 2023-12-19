@@ -1108,7 +1108,7 @@ export default function MapScreen(props) {
                         <TouchableOpacity onPress={locateUser} style={styles.locateButtonStyle}>
                             <Icon
                                 name='gps-fixed'
-                                color={"#666699"}
+                                color={"red"}
                                 size={26}
                             />
                         </TouchableOpacity>
@@ -1159,7 +1159,7 @@ export default function MapScreen(props) {
                     <View style={[styles.alrt,{flexDirection:isRTL?'row-reverse':'row'}]}>
                         <View style={[styles.alrt1,{flexDirection:isRTL? 'row-reverse':'row'}]}>
                             <Icon name="alert-circle" type="ionicon" color={colors.RED} size={18} />
-                            <Text style={{ fontSize: 14, fontWeight: 'bold', color: colors.BLACK, marginLeft: 3 }}>{t('allow_only')}</Text>
+                            <Text style={{ fontSize: 14, fontWeight: 'bold', color: colors.RED, marginLeft: 3 }}>{t('allow_only')}</Text>
                         </View>
                         <Button onPress={changePermission}
                             title={t('fix')} 
@@ -1181,7 +1181,7 @@ export default function MapScreen(props) {
                     <View style={[styles.alrt,{flexDirection:isRTL?'row-reverse':'row'}]}>
                         <View style={[styles.alrt1,{flexDirection:isRTL? 'row-reverse':'row'}]}>
                             <Icon name="alert-circle" type="ionicon" color={colors.RED} size={18} />
-                            <Text style={{ fontSize: 14, fontWeight: 'bold', color: colors.BLACK, marginLeft: 3 }}>{t('admin_contact')}</Text>
+                            <Text style={{ fontSize: 14, fontWeight: 'bold', color: colors.RED, marginLeft: 3 }}>{t('admin_contact')}</Text>
                         </View>
                     </View>
                 :null}
@@ -1208,7 +1208,7 @@ export default function MapScreen(props) {
                     <ScrollView horizontal={true} style={styles.fullCarScroller} showsHorizontalScrollIndicator={false}>
                         {allCarTypes.map((prop, key) => {
                             return (
-                                <View key={key} style={[styles.cabDivStyle, { backgroundColor: prop.active == true ? colors.BOX_BG : colors.WHITE }]}>
+                                <View key={key} style={[styles.cabDivStyle, { backgroundColor: prop.active == true ? colors.new1 : colors.WHITE }]}>
                                     <CarHorizontal
                                         onPress={() => { selectCarType(prop, key) }}
                                         carData={prop}

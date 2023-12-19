@@ -905,7 +905,7 @@ export default function BookedCabScreen(props) {
                         <Icon
                             name={isRTL?'arrow-right':'arrow-left'}
                             type='font-awesome'
-                            color='#517fa4'
+                            color='#000000'
                             size={26}
                         />
                     </TouchableOpacity>
