@@ -1109,7 +1109,7 @@ export default function EditProfilePage(props) {
                                 onPress={saveProfile}
                                 title={t('update_button')}
                                 titleStyle={styles.buttonTitle}
-                                buttonStyle={[styles.registerButton, { backgroundColor: colors.PAYMENT_BUTTON_BLUE }]}
+                                buttonStyle={[styles.registerButton, { backgroundColor: colors.BLACK }]}
                             />
                         </View>
                         <View style={styles.gapView} />

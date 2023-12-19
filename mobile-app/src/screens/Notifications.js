@@ -39,9 +39,9 @@ export default function Notifications(props) {
     const newData = ({ item }) => {
         return (
             <View style={styles.container}>
-                <View style={[styles.divCompView,{flexDirection: isRTL ? 'row-reverse' : 'row',backgroundColor: MAIN_COLOR }]}>
+                <View style={[styles.divCompView,{flexDirection: isRTL ? 'row-reverse' : 'row',backgroundColor: colors.BLACK }]}>
                     <View style={styles.imageHolder}>
-                        <MaterialCommunityIcons name="car-parking-lights" size={33} color={colors.HEADER} />
+                        <MaterialCommunityIcons name="car-parking-lights" size={33} color={colors.WHITE} />
                     </View>
                     <TouchableOpacity onPress={() => show(item)} style={styles.statusView}>
                         <View style={styles.textFormat}>

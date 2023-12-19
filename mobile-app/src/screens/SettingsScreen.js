@@ -132,7 +132,7 @@ export default function SettingsScreen(props) {
                 renderItem={({ item, index }) => {
                     if (auth.profile && auth.profile.usertype == "customer" && (item.navigationName == "Cars" || item.navigationName == "MyEarning")) {
                         return null;
-                    } else if (auth.profile && auth.profile.usertype == "driver" && (item.navigationName == "Emergency")) {
+                    } else if (auth.profile && auth.profile.usertype == "customer" && (item.navigationName == "Emergency")) {
                         return null;
                     } else if (auth.profile && auth.profile.usertype == "customer" && (item.navigationName == "Emergency") && !appConsts.needEmergemcy ) {
                         return null;
@@ -176,7 +176,7 @@ export default function SettingsScreen(props) {
                                         <Text style={{ color: colors.BLACK }}>{item.name}</Text>
                                         {loading && item.navigationName === 'Logout' ?
                                         <View style={{ position:'absolute', height: '100%', width: '100%', alignItems: 'center', justifyContent: 'center'}}>
-                                            <ActivityIndicator color={colors.BLACK} size='large' style={{marginLeft:isRTL ? 0:50,marginRight:isRTL ? 50:0}}/>
+                                            <ActivityIndicator color={colors.RED} size='large' style={{marginLeft:isRTL ? 0:50,marginRight:isRTL ? 50:0}}/>
                                         </View>
                                         : null}
                                     </View>

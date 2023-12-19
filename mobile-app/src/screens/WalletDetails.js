@@ -75,12 +75,12 @@ export default function WalletDetails(props) {
           <View style={{flexDirection:isRTL?'row-reverse':'row',justifyContent:'space-around',marginVertical:15,width:'100%',height:50}}>
             <View style={[styles.Vew1]}>
             <TouchableOpacity onPress={doReacharge} style={styles.vew7}>
-            <Text style={[styles.txt,{color:colors.DRIVER_TRIPS_BUTTON}]}>{t('add_money')}</Text>
+            <Text style={[styles.txt,{color:colors.BLACK}]}>{t('add_money')}</Text>
             </TouchableOpacity>
             </View>
             <View style={styles.Vew1}>
             <TouchableOpacity onPress={doWithdraw} style={styles.vew7}>
-            <Text style={[styles.txt,{color:colors.new2}]}>{t('withdraw')}</Text>
+            <Text style={[styles.txt,{color:colors.BLACK}]}>{t('withdraw')}</Text>
             </TouchableOpacity>
             </View>
           </View>
@@ -88,7 +88,7 @@ export default function WalletDetails(props) {
           <View style={{flexDirection:'row',justifyContent:'center',marginVertical:15,width:'100%',height:50}}>
           <View style={styles.Vew1}>
           <TouchableOpacity onPress={doReacharge} style={styles.vew7}>
-          <Text style={[styles.txt,{color:colors.DRIVER_TRIPS_BUTTON}]}>{t('add_money')}</Text>
+          <Text style={[styles.txt,{color:colors.BLACK}]}>{t('add_money')}</Text>
           </TouchableOpacity>
           </View>
           </View>

@@ -263,7 +263,7 @@ export default function TaxiModal(props) {
                             <View style={{ width: width, justifyContent: 'center', alignItems: 'center', marginTop: 8 }}>
                                 <Text style={[styles.offerText, { paddingTop: 2, paddingBottom: 5 }]}>{t('payment_mode')}</Text>
                             </View>
-                            <View style={{ width: width, paddingBottom: 5, justifyContent: 'center', alignItems: 'center', borderBottomColor: colors.BOX_BG, }}>
+                            <View style={{ width: width, paddingBottom: 5, justifyContent: 'center', alignItems: 'center', borderBottomColor: colors.BLACK, }}>
                                 <RadioForm
                                     radio_props={radioProps}
                                     initial={payment_mode}

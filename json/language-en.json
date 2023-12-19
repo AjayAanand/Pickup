@@ -671,6 +671,7 @@
   "work": "Work",
   "other": "Other",
   "hours": "Hours",
+  "select_date": "Please Select Date",
   "first_admin_deleted": "First admin cannot be deleted",
   "smtp_error": "Please check your SMTP details",
   "driver_accept_low_cost_capacity_booking": "Driver accept low cost/capacity booking",
